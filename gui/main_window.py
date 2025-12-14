@@ -1119,28 +1119,23 @@ class MainWindow(ctk.CTk):
         self.after(50, self.rotate_cover)
 
     def _update_now_playing(self, song):
-        """
-        Cập nhật thông tin và ảnh bìa của bài hát đang phát.
-        Đảm bảo sử dụng ảnh mặc định nếu không có ảnh bìa hợp lệ.
-        """
-        print(f"--- DEBUG: Bắt đầu _update_now_playing ---")
 
         # 1. Xử lý trường hợp không có bài hát
         if song is None:
-            print("DEBUG: song is None. Đặt trạng thái 'Chưa phát'.")
+
             self.lbl_song_title.configure(text="Chưa phát")
             self.lbl_song_artist.configure(text="--")
             self.original_cover = self.DEFAULT_COVER
             self._update_cover_image(self.original_cover)
             self.add_to_playlist_btn.configure(state="disabled", text_color="#636363")
             self.favorite_btn.configure(text=self.favorite_btn_img_empty)
-            print(f"--- DEBUG: Kết thúc _update_now_playing (None) ---")
+
             return
 
         # 2. Cập nhật thông tin cơ bản
         title = song.get("title", "Không rõ tiêu đề")
         artist = song.get("artist", "Nghệ sĩ ẩn danh")
-        print(f"DEBUG: Cập nhật thông tin: {title} - {artist}")
+
 
         self.lbl_song_title.configure(text=title)
         self.lbl_song_artist.configure(text=artist)
@@ -1153,15 +1148,15 @@ class MainWindow(ctk.CTk):
         if cover_name and isinstance(cover_name, str) and cover_name.strip():
             try:
                 cover_path = COVERS_DIR / cover_name
-                print(f"DEBUG: Tên cover tìm thấy: {cover_name}")
+
             except Exception:
                 cover_path = None
-                print("DEBUG: Lỗi khi tạo cover_path từ COVERS_DIR.")
+
 
         loaded_cover = None
 
         if cover_path and cover_path.exists():
-            print(f"DEBUG: Bắt đầu tải cover từ: {cover_path}")
+
             try:
                 with Image.open(cover_path) as img_file:
                     loaded_cover = img_file.resize((64, 64)).copy()
@@ -1171,36 +1166,35 @@ class MainWindow(ctk.CTk):
                 draw = ImageDraw.Draw(mask)
                 draw.ellipse((0, 0, 64, 64), fill=255)
                 loaded_cover.putalpha(mask)
-                print("DEBUG: Tải và xử lý cover thành công.")
+
 
             except Exception as e:
                 print(f"DEBUG: LỖI KHI TẢI/XỬ LÝ COVER {cover_path}: {e}")
                 pass
-        else:
-            print("DEBUG: Không tìm thấy file cover hoặc cover_name rỗng. Dùng mặc định.")
+
 
         # Gán ảnh bìa và gọi hàm cập nhật
         self.original_cover = loaded_cover if loaded_cover else self.DEFAULT_COVER
         self._update_cover_image(self.original_cover)
-        print("DEBUG: Đã gọi _update_cover_image.")
+
 
         # 4. Kiểm tra trạng thái yêu thích (Favorite)
         try:
             song_id = str(song.get("_id")) if song.get("_id") else None
-            print(f"DEBUG: Kiểm tra Favorite cho ID: {song_id}")
+
 
             if song_id and song_service.is_favorite(song_id):
                 self.favorite_btn.configure(text=self.favorite_btn_img_filled)
-                print("DEBUG: Đặt nút Favorite: FILLED")
+
             else:
                 self.favorite_btn.configure(text=self.favorite_btn_img_empty)
-                print("DEBUG: Đặt nút Favorite: EMPTY")
+
 
         except Exception as e:
             print(f"DEBUG: LỖI kiểm tra favorite: {e}")
             self.favorite_btn.configure(text=self.favorite_btn_img_empty)
 
-        print(f"--- DEBUG: Kết thúc _update_now_playing ---")
+
 
     def on_double(self, event):
         """Xử lý sự kiện nhấp đúp chuột trên Treeview."""
