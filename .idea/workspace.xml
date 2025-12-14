@@ -4,11 +4,177 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52b61d9d-267f-4a29-a59c-de6fe9c6aeee" name="Changes" comment="" />
+    <list default="true" id="52b61d9d-267f-4a29-a59c-de6fe9c6aeee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gui/add_songs_to_playlist_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gui/select_playlist_dialog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/.idea/music_app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/assets/covers/z7148989422199_f032e510914331b48d8de9dbddae386e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/assets/covers/z7151763422947_bac2a358b3346b0a1b290d2c77506628.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/database/mongo_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/gui/main_window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/gui/playlist_window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/gui/song_form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/services/player_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/services/playlist_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/services/song_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/Dark screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/Light screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/azure.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/box-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/box-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/box-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/box-invalid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/button-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/check-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/check-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/check-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/check-tri-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/check-tri-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/check-tri-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/circle-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/circle-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/circle-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/combo-button-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/combo-button-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/combo-button-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/down-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/hor-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/hor-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/hor-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/notebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/off-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/on-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/on-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/outline-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/outline-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/radio-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/radio-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/radio-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/radio-tri-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/radio-tri-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/radio-tri-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/rect-accent-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/rect-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/rect-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/rect-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/scale-hor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/scale-vert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/separator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/size.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tab-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tab-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tab-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tick-hor-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tick-hor-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tick-hor-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tick-vert-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tick-vert-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tick-vert-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tree-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/tree-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/up-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/vert-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/vert-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/dark/vert-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/box-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/box-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/box-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/box-invalid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/button-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/check-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/check-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/check-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/check-tri-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/check-tri-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/check-tri-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/circle-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/circle-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/circle-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/combo-button-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/combo-button-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/combo-button-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/down-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/hor-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/hor-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/hor-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/notebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/off-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/off-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/on-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/on-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/on-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/outline-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/outline-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/radio-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/radio-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/radio-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/radio-tri-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/radio-tri-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/radio-tri-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/rect-accent-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/rect-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/rect-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/rect-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/scale-hor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/scale-vert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/separator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/size.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tab-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tab-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tab-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tick-hor-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tick-hor-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tick-hor-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tick-vert-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tick-vert-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tick-vert-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tree-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/tree-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/up-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/vert-accent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/vert-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_app/themes/azure/theme/light/vert-hover.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -23,19 +189,22 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.app.executor&quot;: &quot;Run&quot;,
     &quot;Python.main_window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player_service.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playlist_window.executor&quot;: &quot;Run&quot;,
     &quot;Python.song_form.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/khoin/Downloads/music_app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Downloads/music_app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -87,11 +256,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764982487022</updated>
-      <workItem from="1765292177009" duration="27000" />
-      <workItem from="1765295486292" duration="316000" />
-      <workItem from="1765295825950" duration="2449000" />
-      <workItem from="1765298521228" duration="218000" />
-      <workItem from="1765299446246" duration="83000" />
+      <workItem from="1765299535455" duration="6509000" />
+      <workItem from="1765306136840" duration="2252000" />
+      <workItem from="1765343504725" duration="123000" />
+      <workItem from="1765357650989" duration="8381000" />
+      <workItem from="1765366840514" duration="80000" />
+      <workItem from="1765366935599" duration="28000" />
+      <workItem from="1765367148989" duration="828000" />
+      <workItem from="1765388705342" duration="10032000" />
+      <workItem from="1765555109228" duration="3359000" />
+      <workItem from="1765559200652" duration="2497000" />
+      <workItem from="1765561789671" duration="910000" />
+      <workItem from="1765602352667" duration="16194000" />
+      <workItem from="1765640754602" duration="290000" />
     </task>
     <servers />
   </component>
@@ -99,8 +276,9 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/music_app$song_form.coverage" NAME="song_form Coverage Results" MODIFIED="1765297674511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
-    <SUITE FILE_PATH="coverage/music_app$main_window.coverage" NAME="main_window Coverage Results" MODIFIED="1765299274009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/music_app/gui" />
-    <SUITE FILE_PATH="coverage/music_app$app.coverage" NAME="app Coverage Results" MODIFIED="1765298685695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/music_app$player_service.coverage" NAME="player_service Coverage Results" MODIFIED="1765303299928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/services" />
+    <SUITE FILE_PATH="coverage/music_app$playlist_window.coverage" NAME="playlist_window Coverage Results" MODIFIED="1765299907805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/music_app$main_window.coverage" NAME="main_window Coverage Results" MODIFIED="1765305863477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/music_app$app.coverage" NAME="app Coverage Results" MODIFIED="1765640775742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
